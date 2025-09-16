@@ -1,0 +1,40 @@
+name: "Join AVN Innovations"
+description: "Request to join the AVN Innovations community"
+title: "[JOIN REQUEST] <your-name>"
+labels: ["join-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Full Name
+      description: Your real name (for community records)
+      placeholder: "Amritha V. Nair"
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub Username
+      description: Your GitHub handle
+      placeholder: "Amritha-V-N"
+    validations:
+      required: true
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: Skills & Interests
+      description: What do you want to contribute? (AI, Cybersecurity, Docs, Community, etc.)
+      placeholder: "AI research, cybersecurity CTFs, documentation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why do you want to join?
+      description: Tell us why you’d like to be part of AVN Innovations
+      placeholder: "Because I want to contribute to AI + Security for real-world impact."
+    validations:
+      required: true

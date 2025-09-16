@@ -1,0 +1,21 @@
+name: 👋 Welcome new contributors
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet contributor
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Hi, thanks for opening your first issue with **AVN Innovations**!  
+            Our community will review it soon 🚀
+          pr-message: |
+            🎉 Thanks for your first contribution to **AVN Innovations**!  
+            The maintainers will review and merge if everything looks good.
