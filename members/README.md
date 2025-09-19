@@ -5,7 +5,7 @@ Welcome to the AVN Innovations members directory!
 This folder contains profiles of all community members. Everyone in the community and the public **can view these profiles** on GitHub.  
 
 ## How to Add Your Profile
-1. Copy the template file [`example-username.md`](example-username.md).  
+1. Copy the template file [`example_username.md`](example_username.md).  
 2. Rename the file to your **GitHub username** 
 3. Fill in your information in the fields provided.  
 4. Check the relevant brands using the checkboxes.  
